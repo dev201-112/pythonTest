@@ -5,7 +5,10 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  schedule:
+    - cron: "15 17 * * *"
   workflow_dispatch:
+
 
 jobs:
   test:
