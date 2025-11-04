@@ -1,4 +1,4 @@
-from src.app import add, is_palindrome
+from app import add, is_palindrome
 
 
 def test_add_positive():
